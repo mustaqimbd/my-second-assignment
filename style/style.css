@@ -265,6 +265,7 @@ header {
 .sponsors-container {
     margin: 100px 0;
 }
+
 .sponsors-description {
     width: 50%;
     margin: 0 auto;
@@ -297,6 +298,19 @@ header {
 .sponsor img {
     width: 100%;
     height: auto;
+}
+
+/* footer style */
+.footer {
+    background: #FFF4E8;
+}
+
+.footer-text {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
 }
 
 /* ------------ mobile responsive style ---------------- */
@@ -351,17 +365,20 @@ header {
     .experience {
         top: 95%;
     }
-   /* some facts section */
-   .some-fact-description {
-    text-align: center;
-   }
-   .some-fact-description p {
-    width: 70%;
-    margin: auto;
-}
-/* our sponsors */
-.sponsor {
-    margin: 0 20px;
-}
+
+    /* some facts section */
+    .some-fact-description {
+        text-align: center;
+    }
+
+    .some-fact-description p {
+        width: 70%;
+        margin: auto;
+    }
+
+    /* our sponsors */
+    .sponsor {
+        margin: 0 20px;
+    }
 
 }
