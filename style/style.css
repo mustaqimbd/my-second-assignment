@@ -261,6 +261,44 @@ header {
     color: #727272;
 }
 
+/* our sponsors section style */
+.sponsors-container {
+    margin: 100px 0;
+}
+.sponsors-description {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsors-description h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    margin-bottom: 0;
+}
+
+.sponsors-description p {
+    color: #727272;
+}
+
+.sponsor-companys {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.sponsor {
+    width: 12%;
+    height: auto;
+}
+
+.sponsor img {
+    width: 100%;
+    height: auto;
+}
+
 /* ------------ mobile responsive style ---------------- */
 @media screen and (max-width: 576px) {
     .container {
@@ -309,9 +347,21 @@ header {
         align-items: center;
         justify-content: center;
     }
+
     .experience {
         top: 95%;
     }
-    
+   /* some facts section */
+   .some-fact-description {
+    text-align: center;
+   }
+   .some-fact-description p {
+    width: 70%;
+    margin: auto;
+}
+/* our sponsors */
+.sponsor {
+    margin: 0 20px;
+}
 
 }
