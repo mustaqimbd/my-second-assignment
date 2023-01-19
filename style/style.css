@@ -11,6 +11,11 @@ body {
     margin: 0 auto;
 }
 
+/* ----------- header style ---------  */
+header {
+    background: #FFF4E8;
+}
+
 /* navigation bar styles */
 .navbar {
     display: flex;
@@ -39,7 +44,7 @@ body {
     color: #424242;
 }
 
-/* group of architects section style */
+/* group of architects style */
 .architect-description {
     max-width: 700px;
     text-align: center;
@@ -65,11 +70,148 @@ body {
     font-size: 20px;
     color: #FFFFFF;
 }
+
 .architect-img img {
     width: 100%;
     height: auto;
     margin: 30px 0;
 }
+
+/* our features section style */
+.our-features-team {
+    display: flex;
+    gap: 50px;
+    margin: 80px 0;
+}
+
+.our-features-team>div {
+    width: 50%;
+}
+
+.feature-team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.feature-team-images img {
+    width: 100%;
+    height: auto;
+}
+
+.features-team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-details-team h1 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #727272;
+    margin: 0px;
+}
+
+.feature-details-team .word-1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    margin: 0 10px;
+}
+
+.feature-details-team .word-2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FF900E;
+}
+
+.feature-details-team p {
+    color: #727272;
+    line-height: 26px;
+}
+
+/* our feature section style */
+.our-feature-list-container {
+    display: flex;
+    gap: 50px;
+}
+
+.our-feature-list {
+    width: 45%;
+}
+
+.our-feature-img img {
+    width: 100%;
+    height: auto;
+}
+
+.our-features>div {
+    display: flex;
+    gap: 10px;
+}
+
+.side-border {
+    background: #FF900E;
+    width: 5px;
+}
+
+.our-features h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    margin: 10px 0 0 0;
+}
+
+.our-features p {
+    color: #727272;
+}
+
+.our-feature-items {
+    padding: 20px;
+}
+
+.our-feature-items h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin: 0px;
+}
+
+.our-feature-items p {
+    color: #727272;
+    margin: 5px 0 0 0;
+}
+
+.relative-section {
+    position: relative;
+}
+
+.experience {
+    position: absolute;
+    width: 166px;
+    height: 80px;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-left: 36%;
+    padding: 20px;
+    top: 90%;
+}
+
+.experience h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.experience p {
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
 /* ------------ mobile responsive style ---------------- */
 @media screen and (max-width: 576px) {
     .container {
@@ -87,5 +229,78 @@ body {
         flex-direction: column;
     }
 
+    /* our features section style */
+    .our-features-team {
+        display: flex;
+        gap: 40px;
+        margin: 60px 0;
+        flex-direction: column-reverse;
+    }
+
+    .our-features-team>div {
+        width: 100%;
+    }
+
+    .feature-details-team {
+        text-align: center;
+    }
+
+    /* our feature section style */
+    .our-feature-list-container {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .our-feature-list {
+        width: 100%;
+        text-align: center;
+    }
+
+    .our-feature-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .our-features>div {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .side-border {
+        background: #FF900E;
+        width: 5px;
+    }
+
+    .our-features h1 {
+        font-weight: 700;
+        font-size: 40px;
+        color: #131313;
+        margin: 10px 0 0 0;
+    }
+
+    .our-features p {
+        color: #727272;
+    }
+
+    .our-feature-items {
+        padding: 20px;
+    }
+
+    .our-feature-items h3 {
+        font-weight: 600;
+        font-size: 20px;
+        color: #131313;
+        margin: 0px;
+    }
+
+    .our-feature-items p {
+        color: #727272;
+        margin: 5px 0 0 0;
+    }
+
+    .experience {
+        top: 95%;
+    }
 
 }
