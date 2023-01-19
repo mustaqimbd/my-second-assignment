@@ -298,11 +298,41 @@ header {
 .sponsor img {
     width: 100%;
     height: auto;
+    filter: grayscale(100%);
+}
+
+/* grow business section style */
+.grow-business-img {
+    height: 400px;
+}
+
+.grow-business-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.grow-business {
+    text-align: center;
+}
+
+.grow-business h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 0;
+}
+
+.grow-business p {
+    color: #727272;
+    font-size: 20px;
+    width: 80%;
+    margin: 0px auto 20px;
 }
 
 /* footer style */
 .footer {
     background: #FFF4E8;
+    margin-top: 30px;
 }
 
 .footer-text {
@@ -317,6 +347,10 @@ header {
 @media screen and (max-width: 576px) {
     .container {
         margin: auto 15px;
+    }
+
+    header .container {
+        background: #FFF4E8;
     }
 
     /* navigation bar styles */
